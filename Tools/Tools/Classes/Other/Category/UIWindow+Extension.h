@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  UIWindow+Extension.h
 //  Tools
 //
 //  Created by hyfsoft on 2016/12/29.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface UIWindow (Extension)
 
+- (void)showLaunch;
 
 @end
-
