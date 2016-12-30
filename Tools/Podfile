@@ -6,8 +6,9 @@ target 'Tools' do
  use_frameworks!
 
 pod ‘AFNetworking’
-
-
+pod 'SDWebImage'
+pod 'MJExtension'
+pod 'MMDrawerController'
 
   # Pods for Tools
 

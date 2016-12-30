@@ -16,8 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor groupTableViewBackgroundColor];
+    self.view.backgroundColor = kWhiteColor;
     self.title = @"第一天";
+    
 }
 
 - (void)didReceiveMemoryWarning {
