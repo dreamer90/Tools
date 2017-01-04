@@ -6,8 +6,8 @@
 //  Copyright © 2016年 hyfsoft. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <MMDrawerController/MMDrawerController.h>
 
-@interface MainViewController : UIViewController
+@interface MainViewController : MMDrawerController
 
 @end

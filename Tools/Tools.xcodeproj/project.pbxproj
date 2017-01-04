@@ -21,6 +21,9 @@
 		37942BCF1E14F7E400CDFDBC /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 37942BCE1E14F7E400CDFDBC /* HttpTool.m */; };
 		379A4F641E15FEAF00EB29FC /* LaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A4F631E15FEAF00EB29FC /* LaunchImage.m */; };
 		379A4F671E16020700EB29FC /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A4F661E16020700EB29FC /* UIView+Extension.m */; };
+		37D33A1B1E1B737F00ADBDD9 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D33A1A1E1B737F00ADBDD9 /* HomeViewController.m */; };
+		37D33A231E1B77E300ADBDD9 /* LeftSideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D33A211E1B77E300ADBDD9 /* LeftSideViewController.m */; };
+		37D33A241E1B77E300ADBDD9 /* LeftSideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37D33A221E1B77E300ADBDD9 /* LeftSideViewController.xib */; };
 		E123B82206A148DF429500F0 /* Pods_Tools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0F67146737EE5011280EFE /* Pods_Tools.framework */; };
 		F8647C325EEBA2133FC0300C /* Pods_ToolsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4BAFB73B13822E91F0DB97 /* Pods_ToolsUITests.framework */; };
 /* End PBXBuildFile section */
@@ -74,6 +77,11 @@
 		379A4F661E16020700EB29FC /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		379A4F691E16065700EB29FC /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
 		379A4F6A1E160BD100EB29FC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		37D33A191E1B737F00ADBDD9 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		37D33A1A1E1B737F00ADBDD9 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		37D33A201E1B77E300ADBDD9 /* LeftSideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSideViewController.h; sourceTree = "<group>"; };
+		37D33A211E1B77E300ADBDD9 /* LeftSideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSideViewController.m; sourceTree = "<group>"; };
+		37D33A221E1B77E300ADBDD9 /* LeftSideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeftSideViewController.xib; sourceTree = "<group>"; };
 		3ED312632B8E4D627164A8AE /* Pods-ToolsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToolsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ToolsUITests/Pods-ToolsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B99AFDAC0847D13C7A52120 /* Pods-ToolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToolsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToolsTests/Pods-ToolsTests.release.xcconfig"; sourceTree = "<group>"; };
 		9D3796B7BEB518773AE1E5B5 /* Pods-Tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tools/Pods-Tools.debug.xcconfig"; sourceTree = "<group>"; };
@@ -191,6 +199,7 @@
 			children = (
 				37942BBC1E14EF3100CDFDBC /* Main */,
 				37942BBB1E14EF3100CDFDBC /* Home */,
+				37D33A1C1E1B749800ADBDD9 /* LeftVC */,
 				37942BC01E14F12500CDFDBC /* Other */,
 			);
 			path = Classes;
@@ -199,6 +208,8 @@
 		37942BBB1E14EF3100CDFDBC /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				37D33A191E1B737F00ADBDD9 /* HomeViewController.h */,
+				37D33A1A1E1B737F00ADBDD9 /* HomeViewController.m */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -261,6 +272,16 @@
 				379A4F6A1E160BD100EB29FC /* PrefixHeader.pch */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		37D33A1C1E1B749800ADBDD9 /* LeftVC */ = {
+			isa = PBXGroup;
+			children = (
+				37D33A201E1B77E300ADBDD9 /* LeftSideViewController.h */,
+				37D33A211E1B77E300ADBDD9 /* LeftSideViewController.m */,
+				37D33A221E1B77E300ADBDD9 /* LeftSideViewController.xib */,
+			);
+			path = LeftVC;
 			sourceTree = "<group>";
 		};
 		B17401742EEEB08B65A204D9 /* Frameworks */ = {
@@ -389,6 +410,7 @@
 			files = (
 				37942B971E14A66500CDFDBC /* LaunchScreen.storyboard in Resources */,
 				37942B941E14A66500CDFDBC /* Assets.xcassets in Resources */,
+				37D33A241E1B77E300ADBDD9 /* LeftSideViewController.xib in Resources */,
 				37942B921E14A66500CDFDBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -539,9 +561,11 @@
 			files = (
 				379A4F641E15FEAF00EB29FC /* LaunchImage.m in Sources */,
 				37942B8C1E14A66500CDFDBC /* AppDelegate.m in Sources */,
+				37D33A231E1B77E300ADBDD9 /* LeftSideViewController.m in Sources */,
 				37942BC71E14F19200CDFDBC /* UIWindow+Extension.m in Sources */,
 				37942BBF1E14EFCD00CDFDBC /* MainViewController.m in Sources */,
 				37942BCB1E14F31200CDFDBC /* LaunchViewController.m in Sources */,
+				37D33A1B1E1B737F00ADBDD9 /* HomeViewController.m in Sources */,
 				37942B891E14A66500CDFDBC /* main.m in Sources */,
 				379A4F671E16020700EB29FC /* UIView+Extension.m in Sources */,
 				37942BCF1E14F7E400CDFDBC /* HttpTool.m in Sources */,

@@ -1,14 +1,12 @@
 //
 //  AppDelegate.m
-//  Tools
+//  图片放大
 //
-//  Created by hyfsoft on 2016/12/29.
-//  Copyright © 2016年 hyfsoft. All rights reserved.
+//  Created by hyfsoft on 2017/1/3.
+//  Copyright © 2017年 hyfsoft. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "MainViewController.h"
-#import "UIWindow+Extension.h"
 
 @interface AppDelegate ()
 
@@ -18,18 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-  
-    
-    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    
-    self.window.rootViewController = [[MainViewController alloc] init];
-    
-    [self.window makeKeyAndVisible];
-    
-    // 启动动画
-//    [self.window showLaunch];
-    
+    // Override point for customization after application launch.
     return YES;
 }
 
